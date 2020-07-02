@@ -1,0 +1,223 @@
+
+/* Login */
+
+.loginBody {
+	/*background: rgba(26,95,112,1); 
+	background: -moz-linear-gradient(-45deg, rgba(26,95,112,1) 0%, rgba(26,95,112,1) 36%, rgba(45,111,128,1) 54%, rgba(102,169,186,1) 99%, rgba(102,169,186,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(26,95,112,1)), color-stop(36%, rgba(26,95,112,1)), color-stop(54%, rgba(45,111,128,1)), color-stop(99%, rgba(102,169,186,1)), color-stop(100%, rgba(102,169,186,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(26,95,112,1) 0%, rgba(26,95,112,1) 36%, rgba(45,111,128,1) 54%, rgba(102,169,186,1) 99%, rgba(102,169,186,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(26,95,112,1) 0%, rgba(26,95,112,1) 36%, rgba(45,111,128,1) 54%, rgba(102,169,186,1) 99%, rgba(102,169,186,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(26,95,112,1) 0%, rgba(26,95,112,1) 36%, rgba(45,111,128,1) 54%, rgba(102,169,186,1) 99%, rgba(102,169,186,1) 100%);
+	background: linear-gradient(135deg, rgba(26,95,112,1) 0%, rgba(26,95,112,1) 36%, rgba(45,111,128,1) 54%, rgba(102,169,186,1) 99%, rgba(102,169,186,1) 100%);*/
+	background: #0BB5FF;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a5f70', endColorstr='#66a9ba', GradientType=1 );
+	font-family: Century Gothic;
+}
+
+.loginBody img {
+	height: 80px;
+	width: 250px;
+}
+
+.loginBody h3 {
+	padding-top: 10px;
+	color: #7f9ea5;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #69868c;
+}
+
+.loginBody input {
+	background: transparent;
+	border:none;
+	color: black;
+}
+
+.loginBody button {
+	background-color: #3385ff;
+	padding: 10px 0px;
+	color: white;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBody input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #efefef inset !important;
+}
+
+.loginBody .parentDiv {
+	/*background: rgba(0, 0, 153);*/
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 2px 6px rgba(26,95,112,1);
+}
+
+.loginBody ::placeholder {
+    color: #99ccd8;
+    opacity: 1; /* Firefox */
+}
+
+.loginBody :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #99ccd8;
+}
+
+.loginBody ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #99ccd8;
+}
+
+.centerItem h1 {
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+#page-wrapper {
+	background: #efefef;
+}
+
+#page-wrapper .ng-scope {
+	background: transparent;
+}
+
+/* Main Page */
+
+#profilePicture {
+	width: 140px;
+	height: 140px;
+	object-fit: contain;
+}
+
+/* Dashboard */
+
+#dashboard div {
+	background: #ef6988;
+	height: 100px;
+	border-radius: 4px;
+	padding: 5px 5px;
+	color: white;
+	font-family: "Verdana";
+}
+
+#dashboard div table h1 {
+	font-size: 30px;
+}
+
+#iconHolder {
+	background: rgba(255,255,255,0.3);
+}
+
+/* Admin Utility */
+
+.adminutils .utilMenus .col-lg-4 {
+	
+}
+
+.adminutils .utilMenus table {
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	margin: 20px 0px;
+	color: gray;
+	background: lightgray;
+	border-radius: 3px;
+	box-shadow: 0px 2px 7px gray;
+	transition-duration: 0.3s;
+}
+
+.adminutils .utilMenus table:hover {
+	background: gray;
+	color: white;
+	text-shadow: 0px 1px 1px black;
+	letter-spacing: 2px;
+	box-shadow: 0px 2px 7px black;
+}
+
+.adminutils .utilMenus table i {
+	font-size: 50px;
+}
+
+.adminutils .utilDataTransfer table {
+	width: 100%;
+}
+	
+
+/* Extra */
+
+/* Table */
+
+.table {
+	table-layout: table;
+	vertical-align: center;
+}
+
+.table td {
+	display: table-cell;
+	vertical-align: center;
+}
+
+/* Max-width */
+
+.max-margin {
+	width: 100%;
+	height: 100%;
+}
+
+/* Border */
+
+.border-top-success {
+	border-top-style: solid;
+	border-top-color: dodgerblue;
+	border-top-width: 1px;
+}
+
+/* Button */
+
+.btn-customize {
+	background: #3fd3c4;
+	color: white;
+}
+
+.btn-customize:hover {
+	background: #39cebf;
+	color: white;
+}
+
+.btn-customize:focus {
+	background: #39cebf;
+	color: white;
+	box-shadow: 0px 0px 5px inset black;
+}
+
+/* Margin */
+
+.margin-top-sm {
+	margin-top: 10px;
+}
+
+.margin-top-md {
+	margin-top: 30px;
+}
+
+.margin-top-lg {
+	margin-top: 50px;
+}
+
+.margin-top-xl {
+	margin-top: 80px;
+}
+
+.margin-bottom-sm {
+	margin-top: 10px;
+}
+
+.margin-bottom-md {
+	margin-top: 30px;
+}
+
+.margin-bottom-lg {
+	margin-top: 50px;
+}
+
+.margin-bottom-xl {
+	margin-top: 80px;
+}
